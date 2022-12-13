@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+html body{
+  background-color: gray;
+}
+
+ body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  margin:8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;}
+   #quote-text {
+
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+  }
+  #title {
+    font-family: 'bold', sans-serif;
+    color: rgb(12, 10, 10);
+  }
+  
+  #author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+  }
+  .buttons {
+    width: 400px;
+    margin: auto;
+    display: block;}
+    .button {
+      height: 38px;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #333;
+      outline: none;
+      font-size: 0.85em;
+      padding: 8px 18px 6px 18px;
+      margin-top: 30px;
+      opacity: 1;
+      cursor: pointer;
+    }
+    
+
+    #new-quote {
+      float: right;
+      height: 40px;
+      border-color: #fff;
+      color:black;            
+      border-radius: 3px;
+      padding: 10px 15px 10px 15px;
+      cursor: pointer;
+      background-color:gray;
+      background-size: 200% auto;
+    }
+    #new-quote:hover{
+       background-position: right center;
+       color: #fff;
+    }
+
+    #tweet-quote {
+      width: 3px; ;
+      color:#00aced;
+    }
+    .twitter{
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      
+    }
+    
+  
+    .twitter:hover {
+      opacity: 0.7;
+    
+    }
+    
